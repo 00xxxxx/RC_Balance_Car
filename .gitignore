@@ -1,0 +1,52 @@
+# Compiled Object files
+*.o
+*.lo
+*.la
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.bundle
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Project files
+*.user
+*.tmh
+*.tmp
+*.obj
+*.bak
+*.dep
+*.hex
+*.bin
+*.map
+*.elf
+
+# Build directories
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~ 

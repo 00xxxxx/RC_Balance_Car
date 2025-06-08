@@ -1,0 +1,36 @@
+<!--pages/test/test.wxml-->
+<!-- <button type="primary" bindtap="btnTapHandle">按钮</button>
+<button type="primary" bindtap="CountChange">+1</button>
+<button class="youxiajiao" type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button> -->
+<view class="whole">
+
+    <view class="left">
+        <view class="container">
+        <view class="out" bindtouchstart="startFn" bindtouchmove="moveFn" bindtouchend="endFn">
+            <view class="in" style="{{transform}}" ></view>
+        </view>
+    </view>
+    </view>
+    <view class="right">
+        <slider class="slider" min='0' max='3' show-value activeColor="#E764F"        bindchange="sliderChange" block-color="#057748">
+        </slider>
+        <text class="text">Speed(1~3)</text>
+
+        <view class="btn_box1">
+            <button class="button_fall" bindtap="btnFallHandle" 
+                style="color:{{color_fall}}">FALL</button>  
+            <button class="button_left" bindtap="btnLeftHandle"         style="color:{{color_l}}">左旋</button> 
+            <button class="button_right" bindtap="btnRightHandle"
+                style="color:{{color_r}}">右旋</button>  
+        </view>
+        <view class="btn_box2">  
+            <button class="button_led" bindtap="btnLedHandle" 
+                style="color:{{color_led}}">LED</button>  
+            <button class="button_rect" bindtap="btnRectHandle"
+                style="color:{{color_rec}}">Rec</button> 
+            <button class="button_tri" bindtap="btnTriHandle"
+                style="color:{{color_tri}}">Tri</button> 
+        </view>
+    </view>  
+</view>
+

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#1BA784",
+    "navigationBarTitleText": "Balance_Car控制器",
+    "navigationBarTextStyle": "white"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
